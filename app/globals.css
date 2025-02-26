@@ -2,20 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 10px rgba(75, 0, 130, 0.4), 0 0 20px rgba(138, 43, 226, 0.6);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(75, 0, 130, 0.7), 0 0 40px rgba(138, 43, 226, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(75, 0, 130, 0.4), 0 0 20px rgba(138, 43, 226, 0.6);
+    }
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .animate-glow {
+    animation: glow 2s infinite alternate ease-in-out;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid transparent;
+  }
