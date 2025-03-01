@@ -43,7 +43,7 @@ const page = () => {
 
 
             <div>
-                <div className=' block sm:hidden w-[100vw] h-[90vh] bg-mirage-950 rounded-2xl mx-auto relative p-10 my-5'>
+                <div className=' block sm:hidden w-[100vw] h-fit bg-mirage-950 rounded-2xl mx-auto relative p-10 my-5'>
 
                     <div className='flex-col justify-center items-center'>
                         <div className="ab flex-col justify-center items-center text-xl font-bold text-center text-white">
