@@ -4,8 +4,8 @@ import SupportersPage from "../supporters/SupportersPage"; // Import your compon
 
 export default function Page() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+   
       <SupportersPage />
-    </Suspense>
+   
   );
 }
