@@ -23,7 +23,7 @@ export default function Home() {
         <p className="mr-4 text-center sm:mt-0 mt-5">Talk Tech & Samosas? I'm In! Just</p>
         <div className="flex justify-center items-center">
         <Link href={ "/buy" }>
-        <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-0 mb-0">Buy</button></Link><p className="ml-4">Me a</p> <img src="/samosa.gif" alt="" className="h-[100px] w-[100px] ml-4" />
+        <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-0 mb-0">Buy</button></Link><p className="ml-4">Me a</p> <img src="/w_samosa.gif" alt="" className="h-[100px] w-[100px] ml-4" />
         </div>
           
         </div>

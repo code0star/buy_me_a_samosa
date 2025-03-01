@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className='sticky top-0 bg-mirage-950 text-white flex justify-between px-4 h-16 items-center  z-10 w-full '>
       <div className="logo font-bold">
         <div className="items-center flex">
-          <img src="/samosa.gif" alt="" className="h-[100px] w-[100px]" />
+          <img src="/w_samosa.gif" alt="" className="h-[100px] w-[100px]" />
         </div>
       </div>
       <ul className='font-bold gap-4 flex '>
