@@ -6,20 +6,18 @@ import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 
 const SupportersPage = () => {
+    const searchParams = useSearchParams();
+    const [hasValueParam, setHasValueParam] = useState(false);
+  const [value, setValue] = useState("0");
 
   useEffect(() => {
     document.title = "Supporters";
-  }, []);
+    setHasValueParam(searchParams.has("value")); // Update state inside useEffect
+    setValue(searchParams.get("value") || "0"); // Default to "0" if null
+  }, [searchParams]); 
   //hiding samosa when coming form services 
-  const searchParams = useSearchParams();
-  const hasValueParam = searchParams.has("value");
-
-
-
-  // to get amt value form service page
-
-  const value = searchParams.get("value");
-
+  
+ 
 
   // to fetch data for left block
   const [data, setData] = useState([]);
