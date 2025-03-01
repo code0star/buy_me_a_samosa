@@ -61,6 +61,7 @@ const page = () => {
   }, [value]);
 
   return (
+    <Suspense>
     <div className="">
 
       <div>
@@ -154,6 +155,7 @@ const page = () => {
         </div>
       </div>
     </div>
+    </Suspense>
   )
 }
 
