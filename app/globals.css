@@ -20,3 +20,22 @@
     border-radius: 50%;
     border: 5px solid transparent;
   }
+  /* Transparent scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Makes track transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  
+  background: rgba(117, 1, 174, 0.582); /* Semi-transparent thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(136, 0, 255, 0.262); /* Slightly visible on hover */
+}
+
